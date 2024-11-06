@@ -3,9 +3,52 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <!-- Bootstrap -->
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css' integrity='sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg==' crossorigin='anonymous'/>
+
+  <!-- custom CSS -->
+   <link rel="stylesheet" href="style.css">
+  <title>Bootstrap Grid Layout</title>
 </head>
+
 <body>
+
+  <header>
+    <h1 class="text-center">Bootstrap 5 Responsive Grid</h1>
+    <h5 class="text-center">Layout a griglia con diversi breakpoint (sm, md, lg)</h5>
+  </header>
+
   
+  <main>
+    <div class="container">
+
+      <!-- 2 colonne -->
+      <div class="row">
+        <div class="col">
+          <h2>Colonna 1</h2>
+          <p>Larghezza intera su dispositivi piccoli, metà larghezza su dispositivi medi e due terzi su dispositivi grandi</p>
+        </div>
+        <div class="col">
+          <h2>Colonna 2</h2>
+          <p>Larghezza intera su dispositivi piccoli, metà larghezza su dispositivi medi e due terzi su dispositivi grandi</p>
+        </div>
+      </div>
+
+      <!-- 3 colonne -->
+      <div class="row">
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+      </div>
+
+      <!-- 4 colonne -->
+      <div class="row">
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+      </div>
+    </div>
+  </main>
 </body>
 </html>
