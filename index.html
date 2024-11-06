@@ -15,7 +15,7 @@
 
   <header>
     <h1 class="text-center mt-5">Bootstrap 5 Responsive Grid</h1>
-    <h5 class="text-center my-4">Layout a griglia con diversi breakpoint (sm, md, lg)</h5>
+    <h5 class="text-center my-4 lead">Layout a griglia con diversi breakpoint (sm, md, lg)</h5>
   </header>
 
 
@@ -24,11 +24,11 @@
 
       <!-- 2 colonne -->
       <div class="row mt-5">
-        <div class="col p-4 bg-light">
+        <div class="col-12 col-md-6 col-lg-4 p-4 bg-light">
           <h2>Colonna 1</h2>
           <p>Larghezza intera su dispositivi piccoli, metà larghezza su dispositivi medi e due terzi su dispositivi grandi.</p>
         </div>
-        <div class="col p-4 bg-secondary">
+        <div class="col-12 col-md-6 col-lg-8 p-4 text-bg-secondary">
           <h2>Colonna 2</h2>
           <p>Larghezza intera su dispositivi piccoli, metà larghezza su dispositivi medi e due terzi su dispositivi grandi.</p>
         </div>
@@ -36,9 +36,18 @@
 
       <!-- 3 colonne -->
       <div class="row my-2">
-        <div class="col"></div>
-        <div class="col"></div>
-        <div class="col"></div>
+        <div class="col-6 col-md-4 p-4 text-bg-primary">
+          <h2>Colonna 1</h2>
+          <p>Metà larghezza intera su dispositivi piccoli e un terzo su dispositivi medi e grandi.</p>
+        </div>
+        <div class="col-6 col-md-4 p-4 text-bg-success">
+          <h2>Colonna 2</h2>
+          <p>Metà larghezza intera su dispositivi piccoli e un terzo su dispositivi medi e grandi.</p>
+        </div>
+        <div class="col-12 col-md-4 p-4 text-bg-danger">
+          <h2>Colonna 3</h2>
+          <p>Metà larghezza intera su dispositivi piccoli e un terzo su dispositivi medi e grandi.</p>
+        </div>
       </div>
 
       <!-- 4 colonne -->
